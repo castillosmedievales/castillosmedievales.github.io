@@ -1,0 +1,79 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand{
+    padding: 26px 15px 15px 15px;
+}
+
+
+#titulo{
+    font-size: 30px;
+    color: #fff; 
+    font-family: 'Open Sans', sans-serif;
+    
+}    
+        
+#maxInicio{
+    font-size: 19px;
+    color: #ffc709;
+    font-family: 'Open Sans', sans-serif;
+    
+
+         
+}
+#miniInicio{
+    font-size: 14px;
+    font-style: italic;
+    color: #ffc709;
+    font-family: 'Open Sans', sans-serif;
+        
+
+}    
+        
+#atrasg{
+    font-size: 19px;
+    color: #f7901e;
+    font-family: 'Open Sans', sans-serif;
+    
+
+         
+}
+#atrasp{
+    font-size: 14px;
+    font-style: italic;
+    color: #f7901e;
+    font-family: 'Open Sans', sans-serif;
+        
+}
+
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: #808080;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: #a4a3a8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#eng{
+    font-size: 22px; 
+    font-style: italic;
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+}

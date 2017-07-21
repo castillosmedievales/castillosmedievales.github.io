@@ -1,0 +1,165 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 94px;
+	margin-bottom: 50px;
+	background: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand{
+    padding: 26px 15px 15px 15px;
+}
+
+
+#titulo{
+    font-size: 30px;
+    color: #fff; 
+    font-family: 'Open Sans', sans-serif;
+    
+}    
+        
+#maxInicio{
+    font-size: 19px;
+    color: #f3d65b;
+    font-family: 'Open Sans', sans-serif;
+    
+
+         
+}
+#miniInicio{
+    font-size: 14px;
+    font-style: italic;
+    color: #f3d65b;
+    font-family: 'Open Sans', sans-serif;
+        
+}
+        
+#atrasg{
+    font-size: 19px;
+    color: #f7901e;
+    font-family: 'Open Sans', sans-serif;
+    
+
+         
+}
+#atrasp{
+    font-size: 14px;
+    font-style: italic;
+    color: #f7901e;
+    font-family: 'Open Sans', sans-serif;
+        
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: #808080;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: #a4a3a8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#eng{
+    font-size: 22px; 
+    font-style: italic;
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin-top: -94px;
+    position: fixed;
+    z-index: 4;
+}
+
+header img{
+    height: 44px;
+    width: 100%;
+}
+
+.navbar-fixed-top{
+    margin-top: 44px;
+}
+
+/**
+  NAVBAR COLOR MOD
+*/
+.navbar-default {
+  background-color: #9c9da0;
+  border-color: #9c9da0;
+}
+.navbar-default .navbar-brand {
+  color: #ffc709;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f79027;
+}
+.navbar-default .navbar-text {
+  color: #ffc709;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffc709;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f79027;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f79027;
+  background-color: #9c9da0;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f79027;
+  background-color: #9c9da0;
+}
+.navbar-default .navbar-toggle {
+  border-color: #9c9da0;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #9c9da0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffc709;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffc709;
+}
+.navbar-default .navbar-link {
+  color: #ffc709;
+}
+.navbar-default .navbar-link:hover {
+  color: #f79027;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffc709;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f79027;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f79027;
+    background-color: #9c9da0;
+  }
+}

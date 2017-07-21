@@ -1,0 +1,17 @@
+/**
+Fondo de la pagina
+*/
+.full {
+  background: url(../../back/backuno.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+font-family: 'Open Sans', sans-serif;    
+}
+
+#intro{
+    font-size: 14px; 
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+}
