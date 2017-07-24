@@ -53,6 +53,7 @@ body {
     font-style: italic;
     color: #f7901e;
     font-family: 'Open Sans', sans-serif;
+    
         
 }
 
@@ -61,21 +62,40 @@ a:link {
     text-decoration: none;
     color: #595959;
     font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
 
 }
 
 /* visited link */
 a:visited {
     text-decoration: none;
-    color: #515151;
+    color: #595959;
     font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
 }
 
 #eng{
-    font-size: 18px; 
+    font-size: 15px; 
     font-style: italic;
-    color: #707070;
+    color: #a8a8a8;
     font-family: 'Open Sans', sans-serif;
+}
+
+#engp{
+    font-size: 11.2px; 
+    font-style: italic;
+    color: #919191;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: lighter;
+
+}
+
+#esp{
+    font-size: 14.2px; 
+    font-style: normal;
+    color: #595959;
+    font-family: 'Open Sans', sans-serif;  
+    line-height: 1em;
 }
 
 header{
