@@ -60,6 +60,8 @@ body {
 a:link {
     text-decoration: none;
     color: #808080;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* visited link */
@@ -67,12 +69,13 @@ a:visited {
     text-decoration: none;
     color: #a4a3a8;
     font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
 }
 
 #eng{
-    font-size: 19px; 
+    font-size: 17px; 
     font-style: italic;
-    color: #a0a0a0;
+    color: #afafaf;
     font-family: 'Open Sans', sans-serif;
 }
 
