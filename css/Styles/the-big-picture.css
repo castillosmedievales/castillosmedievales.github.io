@@ -59,7 +59,7 @@ body {
 /* unvisited link */
 a:link {
     text-decoration: none;
-    color: #808080;
+    color: #595959;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -67,15 +67,14 @@ a:link {
 /* visited link */
 a:visited {
     text-decoration: none;
-    color: #a4a3a8;
+    color: #515151;
     font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
 }
 
 #eng{
     font-size: 18px; 
     font-style: italic;
-    color: #afafaf;
+    color: #707070;
     font-family: 'Open Sans', sans-serif;
 }
 
