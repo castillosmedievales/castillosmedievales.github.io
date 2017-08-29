@@ -12,6 +12,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+header img
+{
+    content:url("../../back/navb.png");
+}
+
 .navbar-brand{
     padding: 6px 15px 15px 15px;
 }
@@ -177,6 +182,9 @@ header img{
 }
 
 @media (max-width: 767px) {
+  header img{
+    content:url("../../back/navbp.png");
+  }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ffc709;
   }
