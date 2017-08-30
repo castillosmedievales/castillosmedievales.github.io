@@ -181,6 +181,13 @@ header img{
   color: #f79027;
 }
 
+.navbar-brand img
+{
+    content:url("../../back/Logo.png");
+    width: 360px;
+    height: 61px;
+}
+
 @media (max-width: 767px) {
   header img{
     content:url("../../back/navbp.png");
@@ -198,6 +205,18 @@ header img{
     color: #f79027;
     background-color: #9c9da0;
   }
+    
+  .navbar-brand img
+  {
+      content:url("../../back/Logop.png");
+      width: 230px;
+      height: 32px;
+  }
+
+    .navbar-default .navbar-brand
+    {
+        padding-bottom: 15px;
+    }
 }
 
 .resize-image{
