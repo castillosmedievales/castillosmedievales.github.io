@@ -13,7 +13,7 @@
         
 #custom_carousel .item  .top {
     overflow:hidden;
-    max-height:1200px;
+    max-height:1920px;
     margin-bottom:15px;
 }
 #custom_carousel .item {
@@ -263,33 +263,7 @@ height:auto
         </div>
     </div>
     <!-- End Carousel -->
-</div>
-<script type="text/javascript">
-$(document).ready(function(ev){
-    var items = $(".nav li").length;
-    var leftRight=0;
-    if(items>5){
-        leftRight=(items-5)*50*-1;
-    }
-    $('#custom_carousel').on('slide.bs.carousel', function (evt) {
-      $('#custom_carousel .controls li.active').removeClass('active');
-      $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
-    })
-    $('.nav').draggable({ 
-        axis: "x",
-         stop: function() {
-            var ml = parseInt($(this).css('left'));
-            if(ml>0)
-            $(this).animate({left:"0px"});
-                if(ml<leftRight)
-                    $(this).animate({left:leftRight+"px"});
-                    
-        }
-      
-    });
-});
-     </script>
-    
+</div>    
     <div class="top col-md-2 col-xs-0"></div>
     <div class="top col-md-10 col-xs-12">
     <a href="../../paises/Alemania.html"><span id="atrasg">atrás </span><span id="atrasp">back</span></a>
@@ -300,7 +274,9 @@ $(document).ready(function(ev){
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="../../../js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../../../js/slider.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../../../js/bootstrap.min.js"></script>
